@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	margin:0;
+	font-family: 'Poppins', sans-serif;
+	padding:0;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+body{
+	height:100vh;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right,#DA1818,#1853DA);
+}
+form{
+	height:35rem;
+	width:30rem;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(255,255,255,0.06);
+	border-radius:30px ;
+	border-top: 1px solid rgba(255,255,255,0.06);
+	border-left:1px solid rgba(255,255,255,0.06) ;
+	box-shadow:  0 8px 32px 0 rgba(31,38,135,37);
+}
+h1{
+	text-align: center;
+	font-size:50px;
+	word-spacing:3%;
+	opacity: .7;
+	margin-bottom: 5%;
+	text-shadow: 2px 4px 2px rgba(0,0,0,.3);
+}
+label{
+	font-size: 20px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,3);
+	word-spacing: 5%;
+	opacity: .8;
+	color:white;
+	padding-top:5px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+	width: 50%;
+	margin: 3% auto;
+	color:white;
+	font-size: 15px;
+	opacity: .7;
+	background: rgba(255,255,255,0.06);
+	padding: 10px 30px;
+	border:none;
+	outline:none;
+	border-radius: 20px;
+	text-shadow: 2px 2px 4px rgba(255,255,255,0.2);
+	box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+	border-left: 1px solid rgba(255,255,255,.3);
+	border-top: 1px solid rgba(255,255,255,.3);
+  }
+input{
+	background: transparent;
+	border:none;
+	outline:none;
+	width:50%;
+	opacity:.8;
+	color:white;
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+label,input{
+	margin-left:50px;
+}
+button{
+    border:none;
+	outline:none;
+	color:black;
+	width:50%;
+	margin:3% auto;
+	opacity: .7;
+}
+a{
+	color:white;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
